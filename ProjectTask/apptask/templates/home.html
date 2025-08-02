@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}{% endblock  %}
+
+{% block link %}{% endblock  %}
+
+
+
+{% block content %}
+<div id="furnitureCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active" style="height: 80vh;">
+      <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036682/corosal_wehhxy.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Modern Sofa">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+        <h3 class="text-warning">Elegant Living</h3>
+        <p>Discover our premium range of modern sofas and lounge chairs.</p>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item" style="height: 80vh;">
+      <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036762/interior6_w5uipi.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Dining Set">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+        <h3 class="text-warning">Dine in Style</h3>
+        <p>Explore handcrafted dining sets for every occasion.</p>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item" style="height: 80vh;">
+      <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036728/corosal3_cq0ucp.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Bedroom Furniture">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+        <h3 class="text-warning">Cozy Bedrooms</h3>
+        <p>Transform your sleep space with our elegant bedroom collections.</p>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="carousel-item" style="height: 80vh;">
+      <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036811/interior3_w2tf7i.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Office Furniture">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+        <h3 class="text-warning">Work in Comfort</h3>
+        <p>Stylish and ergonomic office furniture for your workspace.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#furnitureCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#furnitureCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ {% comment %} CARD  {% endcomment %}
+<div class="container py-5">
+  <h2 class="text-center mb-4 text-primary">Top Interior Design </h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036808/registrationbac_n7dp8x.jpg" class="card-img-top" alt="Houzz">
+        <div class="card-body">
+          <h5 class="card-title text-success">Houzz</h5>
+          <p class="card-text">A leading platform for home remodeling and design inspiration.</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <a href="https://www.houzz.com" target="_blank" class="btn btn-outline-primary w-100">View More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036728/interior1_vidokz.jpg" class="card-img-top" alt="ArchDaily">
+        <div class="card-body">
+          <h5 class="card-title text-success">ArchDaily</h5>
+          <p class="card-text">Explore cutting-edge architecture and interior design projects worldwide.</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <a href="https://www.archdaily.com" target="_blank" class="btn btn-outline-primary w-100">View More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036810/interior4_v9a5ob.jpg" class="card-img-top" alt="Dezeen">
+        <div class="card-body">
+          <h5 class="card-title text-success">Dezeen</h5>
+          <p class="card-text">Award-winning online magazine covering the best in design and interiors.</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <a href="https://www.dezeen.com" target="_blank" class="btn btn-outline-primary w-100">View More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036778/loginbackground_xhqi7m.jpg" class="card-img-top" alt="Interior Design">
+        <div class="card-body">
+          <h5 class="card-title text-success">Interior Design</h5>
+          <p class="card-text">A go-to source for interior design trends, news, and inspiration.</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <a href="https://www.interiordesign.net" target="_blank" class="btn btn-outline-primary w-100">View More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% comment %} Projects {% endcomment %}
+ <div class="container py-5">
+    <h2 class="text-center mb-4">Recent Projects</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <!-- Project Card -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036809/gallery1_cl4677.jpg" class="card-img-top" alt="Urban Loft">
+          <div class="card-body">
+            <h5 class="card-title">Urban Loft</h5>
+            <p class="card-text">Double click the dataset icon to add your own content.</p>
+            <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projectModal1">View Project</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat similar cards for other projects -->
+      <!-- California Style B&B -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036717/gallery2_szk9k5.jpg" class="card-img-top" alt="California Style B&B">
+          <div class="card-body">
+            <h5 class="card-title">California Style B&B</h5>
+            <p class="card-text">Double click the dataset icon to add your own content.</p>
+            <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projectModal2">View Project</button>
+          </div>
+        </div>
+      </div>
+    <!-- Clean Design Apartment -->
+<div class="col">
+  <div class="card h-100 shadow-sm">
+    <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036708/company3_wlkrg4.jpg" class="card-img-top" alt="Clean Design Apartment">
+    <div class="card-body">
+      <h5 class="card-title">Clean Design Apartment</h5>
+      <p class="card-text">Double click the dataset icon to add your own content.</p>
+      <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projectModal3">View Project</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modern Kitchen -->
+<div class="col">
+  <div class="card h-100 shadow-sm">
+    <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036725/hall1_pwcvwt.jpg" class="card-img-top" alt="Modern Kitchen">
+    <div class="card-body">
+      <h5 class="card-title">Modern Kitchen</h5>
+      <p class="card-text">Double click the dataset icon to add your own content.</p>
+      <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projectModal4">View Project</button>
+    </div>
+  </div>
+</div>
+<!-- Classic Family Home -->
+<div class="col">
+  <div class="card h-100 shadow-sm">
+    <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036811/interior3_w2tf7i.jpg" class="card-img-top" alt="Classic Family Home">
+    <div class="card-body">
+      <h5 class="card-title">Classic Family Home</h5>
+      <p class="card-text">Double click the dataset icon to add your own content.</p>
+      <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projectModal6">View Project</button>
+    </div>
+  </div>
+</div>
+
+<!-- Rustic Cabin -->
+<div class="col">
+  <div class="card h-100 shadow-sm">
+    <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036810/interior4_v9a5ob.jpg" class="card-img-top" alt="Rustic Cabin">
+    <div class="card-body">
+      <h5 class="card-title">Rustic Cabin</h5>
+      <p class="card-text">Double click the dataset icon to add your own content.</p>
+      <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#projectModal7">View Project</button>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+
+{% endblock  %}

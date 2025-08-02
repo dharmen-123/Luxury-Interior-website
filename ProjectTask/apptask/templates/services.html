@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Servies{% endblock  %}
+
+{% block link %}{% endblock  %}
+
+
+{% block content %}
+<section class="py-5 bg-light" id="services">
+  <div class="container">
+    <h2 class="text-center fw-bold text-warning mb-5">Our Services</h2>
+     <div class="row g-4">
+      <!-- Office Designs -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036783/office_lgbetf.webp" class="card-img-top" alt="Office Designs">
+          <div class="card-body">
+            <h5 class="card-title">Office Designs</h5>
+            <p class="card-text">Modern, functional office spaces that boost productivity and reflect professionalism.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Company Designs -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036522/company_tcdwvh.jpg" class="card-img-top" alt="Company Designs">
+          <div class="card-body">
+            <h5 class="card-title">Company Designs</h5>
+            <p class="card-text">Corporate interiors that align with branding and culture while maximizing space utility.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hall Designs -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036683/hall_vcostw.jpg" class="card-img-top" alt="Hall Designs">
+          <div class="card-body">
+            <h5 class="card-title">Hall Designs</h5>
+            <p class="card-text">Elegant and spacious halls with customized themes for events or daily use.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="row my-5 bg-white p-4 rounded shadow-sm">
+      <div class="col text-center">
+        <h3 class="fw-bold text-success">Special Offers</h3>
+        <p class="lead">Get up to <strong>30% off</strong> on first-time consultations and seasonal packages!</p>
+        <a href="#" class="btn btn-outline-success">View Offers</a>
+      </div>
+    </div>
+
+
+    <div class="row my-5">
+      <div class="col text-center">
+        <h3 class="fw-bold">Our Customers</h3>
+        <p class="lead">Trusted by clients across industries, from startups to luxury estates.</p>
+        <div class="row g-3 justify-content-center">
+          <div class="col-6 col-md-3"><img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036600/customer1_frjuac.jpg" class="img-fluid" alt="Customer 1"></div>
+          <div class="col-6 col-md-3"><img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036603/customer2_dzt7kj.jpg" class="img-fluid" alt="Customer 2"></div>
+          <div class="col-6 col-md-3"><img src="https://res.cloudinary.com/dxkbdyx72/image/upload/v1754036614/customer3_buit7x.jpg" class="img-fluid" alt="Customer 3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock  %}
